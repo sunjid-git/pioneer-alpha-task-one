@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <section className="home">
         <div className="home-inner-menu">
-          
+
           <div className="menu-items">
             <ul>
               <li>Home</li>
@@ -22,7 +22,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="home-inner">
+          <div className="home-inner all-text">
             <img src={arrow2} alt="" />
             <div className="home-text">
               <h1>A picture is worth a thousand words</h1>
