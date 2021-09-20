@@ -23,8 +23,6 @@
   flex-direction: row;
   justify-content: flex-end;
   margin-left: 62px;
-
-  
 }
 .menu-items ul li {
   font-family: "Roboto", sans-serif;
@@ -50,29 +48,26 @@
   align-items: center;
 }
 
-.home-inner h1 {
+.home-text h1 {
   font-size: 14px;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.home-inner p {
-  font-size: 9px;
-  font-family: "Roboto",sans-serif;
 
-
-}
 .home-inner img {
   width: 20px;
-  height: 25px;
 }
-.home-text{
-    margin: 0 15px;
+.home-text {
+  /* margin: 0 15px; */
+  margin: 0 0px 0 15px;
 }
-.home-text p{
-    margin:15px 0;
+.home-text p {
+  margin: 15px 0;
+  font-size: 9px;
+  font-family: "Roboto", sans-serif;
 }
 .view-gallery {
-    font-family: "Roboto",sans-serif;
-    width: 90px;
+  font-family: "Roboto", sans-serif;
+  width: 90px;
   height: 23px;
   font-weight: bold;
   padding: 4px 12px 5px 12px;

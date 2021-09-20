@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
 
-import arrow1 from "../../images/Arrow 1.png";
-import arrow2 from "../../images/Arrow 2.png";
+import arrow1 from "../../images/Arrow 1.svg";
+import arrow2 from "../../images/Arrow 2.svg";
 
 export default function Home() {
   return (

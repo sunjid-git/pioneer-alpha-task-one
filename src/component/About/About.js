@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
 
-import img1 from '../../images/offset_comp_772626-opt 1.png';
-import img2 from '../../images/offset_comp_772626-opt 2.png';
-import img3 from '../../images/offset_comp_772626-opt 3.png';
+import img1 from '../../images/offset_comp_772626-opt 1.svg';
+import img2 from '../../images/offset_comp_772626-opt 2.svg';
+import img3 from '../../images/offset_comp_772626-opt 3.svg';
 
 export default function About() {
   return (
