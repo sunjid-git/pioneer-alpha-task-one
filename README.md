@@ -1,6 +1,6 @@
 ### `Task One - Pioneer Alpha - React Intern`
 
-# [pioneer-alpha-task-one](https://pioneer-alpha-task-one.netlify.app/)
+# [Live Site](https://pioneer-alpha-task-one.netlify.app/)
 
 
 ### `npm start`
