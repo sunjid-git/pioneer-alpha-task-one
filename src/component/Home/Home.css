@@ -76,4 +76,25 @@
   border-radius: 15px;
   font-size: 12px;
   text-align: center;
+  transition: all 0.35s ease-in-out;
+
+  opacity: 0;
+    animation: btn 4000ms forwards;
+    animation-delay: 500ms;
+}
+
+@keyframes btn{
+    from{
+        opacity: 0;
+        transform: translateX(-120px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.view-gallery:hover{
+background: #b61e1e;
+color:aliceblue;
 }
