@@ -1,0 +1,56 @@
+.home {
+  width: 432px;
+  height: 338px;
+  position:relative;
+  padding-top: 9px; 
+}
+
+.home::after{
+    position: absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../images/gabriel-tovar-30xixEVV0yQ-unsplash 1.png');
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.home-inner {
+    width: 100%;
+  /* height: 338px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 43px;
+    padding-right: 45px;
+    /* background-color: rgb(112, 47, 47); */
+}
+
+.home-inner h1 {
+    font-size: 14px;
+}
+.home-inner p {
+    font-size: 9px;
+}
+.home-inner img{
+    width: 20px;
+height: 35px;
+}
+
+.menu-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-left: 62px;
+}
+.menu-items ul li{
+    font-family: 'Roboto', 
+    sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    color:black;
+    margin-right: 12px;
+    font-size: 16px;
+}
